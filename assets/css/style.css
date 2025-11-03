@@ -15,8 +15,20 @@ body {
     background-color: #00ccff;
 }
 
-#navbar .logo {
-    width: 17px;
-    margin-right: 10px;
+.logo {
+    height: 15px;
+    width: auto;
+    margin-bottom: 5px;
+    margin-right: 5px;
 }
-    
+
+#logo {
+    height: 40px;
+    margin-bottom: 11px;
+    margin-right: 5px;
+}
+
+.coder {
+    height: 500px;
+    width: auto;
+}
