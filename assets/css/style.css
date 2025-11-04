@@ -15,20 +15,25 @@ body {
     background-color: #00ccff;
 }
 
+/* Logo image styling */
 .logo {
-    height: 15px;
-    width: auto;
-    margin-bottom: 5px;
-    margin-right: 5px;
+    width:  50px;
+    height: auto;
 }
 
-#logo {
-    height: 40px;
-    margin-bottom: 11px;
-    margin-right: 5px;
+/* Main Content images styling */
+ .coder {
+    min-width: 70%;
+    height: auto;
 }
 
-.coder {
-    height: 500px;
-    width: auto;
+.programcode {
+    width:  50%;
+    height: auto;
+}
+
+/* Footer styling */
+footer {
+    background-color: #000000;
+    color: #f5f3e9;
 }
