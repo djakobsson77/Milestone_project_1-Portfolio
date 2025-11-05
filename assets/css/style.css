@@ -2,7 +2,8 @@
 
 /*  #f5deb3; Wheat
     #00173c; Dark Midnight Blue
-    #00ccff; Cyan */
+    #87cefa; LightSkyBlue
+    #000000; Black */
 
 body {
     font-family: "Titillium Web", sans-serif;
@@ -21,19 +22,32 @@ body {
     height: auto;
 }
 
-/* Main Content images styling */
+/* Main Content image styling */
  .coder {
     min-width: 70%;
-    height: auto;
-}
-
-.programcode {
-    width:  50%;
     height: auto;
 }
 
 /* Footer styling */
 footer {
     background-color: #000000;
-    color: #f5f3e9;
+    color: #f5deb3;
 }
+
+.contact-input {
+width: 60%;
+background-color: transparent;
+color: #f5deb3;
+}
+
+[type="submit"] {
+    width: 30%;
+    background: #00173c;
+    border-radius: 200px;
+    border: 0;
+    cursor: pointer;
+    color: #f5deb3;
+}
+
+[type="submit"]:hover {
+    background: #000080;
