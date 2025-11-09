@@ -67,3 +67,22 @@ color: #f5deb3;
 .card-text {
     flex-grow: 1;
 }
+
+/* About me section styling */
+.resize {
+    height: 100px;
+    margin: 5px;
+}
+
+.selfie {
+    height: 400px;
+}
+
+#margins {
+    margin: auto;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
