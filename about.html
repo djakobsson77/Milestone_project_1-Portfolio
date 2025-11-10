@@ -5,41 +5,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
     <!-- Bootstrap CSS link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
     <!-- Custom CSS stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
-
 </head>
 
 <body>
-    <nav id=navbar class="navbar navbar-expand-sm">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">Daniel Jacobsson</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="about.html">About me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#contact">Contact</a>
-                    </li>
-                </ul>
+    <header>
+        <nav id=navbar class="navbar navbar-expand-sm">
+            <div class="container">
+                <div class="navbar-brand">
+                    Daniel Jacobsson
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="about.html">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <main>
         <section class="container" id="margins">
@@ -48,7 +59,7 @@
                     <h2 class="display-5">About me</h2>
                 </div>
                 <div class="col-12 col-lg-4 mb-4">
-                    <img src="/assets/images/dan2.jpg" class="img-fluid selfie" alt="Daniel Jacobsson selfie">
+                    <img src="assets/images/dan.webp" class="img-fluid selfie" alt="Daniel Jacobsson selfie">
                 </div>
                 <div class="col-12 col-lg-2 mb-4 d-flex justify-content-start">
                     <ul>
@@ -64,7 +75,7 @@
                     </ul>
                 </div>
                 <div class="col-12 col-lg-6 mb-4">
-                    <h4>Achivements</h4>
+                    <h4>Achievements</h4>
                     <div class="flexbox">
                         <img src="assets/images/web_development.webp" class="resize"
                             alt="Sololearn Web Development Certificate">
@@ -94,7 +105,7 @@
                     went by, I got more and more curious about how the computer worked and how software was
                     made.
                     When I began at the gymnasium (high school) I chose to study electronics, with focus on
-                    computers. I got to know more about a computer's hardware, but I also got my first
+                    computers. I got to know more about a computer's hardware, but I also had my first
                     contact with programming.<br>
                     During this time, programming languages like BASIC, Pascal and Assembler were popular, and I
                     learned the basics of coding in these languages. This was also the time when Internet became
@@ -103,13 +114,14 @@
                     subscriptions with ISP's, and so did I. This was how I found interest for HTML and it didn't
                     take long until I created my first simple website.</p>
                 <p>
-                    After high school I was participating in an EU project so I was living in London, England
+                    After high school I was participating in an EU project which led to that I was living in London,
+                    England
                     for
                     a year.<br>
                     After returning to Sweden, I started a new course learning computer networking and worked
                     much
                     with Windows NT Server and later Windows 2000.<br>
-                    Unfortately the market for network administrators was filled by the time I was finished and
+                    Unfortunately the market for network administrators were filled by the time I was finished and
                     I
                     had to work with other stuff that was far away from computers for a long time.</p>
                 <p>
@@ -121,7 +133,7 @@
                     him and this also has made me come back to my passion for coding.
                     So the latest year I have been studying programming on my own, primary in Python but also
                     the
-                    basics in all three C lanuguages (C, C# and C++).<br>
+                    basics in all three C languages (C, C# and C++).<br>
                     Not long after this I felt an urge that this is what I want to work with, and I also found
                     out
                     that there was a need for fullstack web developers.
