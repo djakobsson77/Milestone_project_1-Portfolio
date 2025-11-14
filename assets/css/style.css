@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
 /*  #f5deb3; Wheat
@@ -33,6 +26,17 @@ body {
  .coder {
     min-width: 70%;
     height: auto;
+}
+
+/* success page return button styling */
+.success_return {
+background-color: transparent;
+color: #f5deb3;
+}
+
+.success_return:hover {
+    background-color: #0000b0;
+    color: #f5deb3;
 }
 
 /* Footer styling */
@@ -83,7 +87,7 @@ color: #f5deb3;
 }
 
 /* About me section styling */
-.resize {
+.certs {
     height: 100px;
     margin: 5px;
 }
@@ -92,11 +96,11 @@ color: #f5deb3;
     height: 400px;
 }
 
-#margins {
+#about_title {
     margin: auto;
 }
 
-.flexbox {
+.ordered_flx {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
